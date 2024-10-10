@@ -1,0 +1,118 @@
+
+        /* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo global */
+body {
+    line-height: 1.6;
+    background: #ff5454;
+    background-size: 100% 100%;
+    animation: gradientBG 5s ease infinite;
+    color: #333;
+}
+
+
+
+/* Header */
+header {
+    text-align: center;
+    padding: 10px;
+    background: #dc0704;
+    border-radius: 15px;
+    margin: 5px auto;
+    max-width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-container {
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 0px solid #ffffff;
+}
+
+.text-container h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.text-container p {
+    font-size: 18px;
+    color: #f8f8f8;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Especialidades */
+.specialties {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 5px auto;
+    margin-top: 2px;
+    max-width: 400px;
+}
+
+.specialty {
+    background: #dc0704;
+    color: #050505;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s, transform 0.3s;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+   
+    
+
+}
+
+.specialty a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.specialty:hover {
+    background: #ff0000;
+    transform: translateY(-5px);
+    
+}
+
+footer {
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 1rem;
+    position: flex;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+
+
+
